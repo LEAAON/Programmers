@@ -51,7 +51,7 @@ int solution(string dirs)
         visit.insert({ pos[0], pos[1], nextPos[0], nextPos[1] });
         visit.insert({ nextPos[0], nextPos[1], pos[0], pos[1] });
         
-        pos = nextPos;
+        pos = nextPos; 
     }
 
     answer = visit.size() / 2;
