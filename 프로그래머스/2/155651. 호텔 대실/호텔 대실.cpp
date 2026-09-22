@@ -17,7 +17,7 @@ int StringToTime(string time)
 }
 
 int solution(vector<vector<string>> book_time) 
-{
+{ 
     vector<pair<int, int>> reservations;
     for (const auto& book : book_time) 
     {
