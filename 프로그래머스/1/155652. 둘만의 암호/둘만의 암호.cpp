@@ -17,9 +17,7 @@ string solution(string s, string skip, int index)
     for (auto ch : s)
     {
         size_t current_idx = valid.find(ch);
-
         auto next_idx = (current_idx + index) % valid.length();
-        
         answer += valid[next_idx];
     }
 
