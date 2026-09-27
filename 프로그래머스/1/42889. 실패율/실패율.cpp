@@ -15,7 +15,9 @@ vector<int> solution(int N, vector<int> stages)
 
     unordered_map<int, int> stageMap;
     for (int stage : stages)
+    {    
         stageMap[stage]++;
+    }
     
     vector<pair<double, int>> failed;
     failed.reserve(N);
