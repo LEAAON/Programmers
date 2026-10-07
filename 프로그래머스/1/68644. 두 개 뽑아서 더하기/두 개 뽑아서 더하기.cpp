@@ -20,7 +20,9 @@ vector<int> solution(vector<int> numbers)
     }
 
     for (int num : sum)
+    {    
         answer.push_back(num);
+    }
 
     return answer;
 }
